@@ -718,6 +718,7 @@
                 <div class="col-md-6">
                     <form action="https://api.web3forms.com/submit" method="POST">
                         <div class="form-group">
+                            <input type="hidden" name="subject" value="subject">
                             <input type="hidden" name="access_key" value="0fa6eb4e-9b41-4254-a435-188b741e0d26">  
                             <label for="name" style="color: #595959;">Name:</label>
                             <input type="text" class="form-control" id="name" name="name" required>
@@ -773,6 +774,25 @@
             
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("finalSubmitBtn").addEventListener("click", function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            // Get the value of the name input field
+            var name = document.getElementById("name").value;
+            
+            // Update the value of the hidden input field for subject
+            document.querySelector('input[name="subject"]').value = "New Portfolio Inquiry from " + name;
+
+            // Proceed with form submission
+            document.querySelector('form').submit();
+        });
+    });
+    </script>
+    
+    
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {

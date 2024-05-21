@@ -93,6 +93,10 @@
 .card {
   height: 1520px; /* Set the height of the cards */
 }
+finalMsg{
+ position: relative;
+ z-index: 9;
+}
 #finalSubmitBtn{
  position: relative;
  z-index: 10;

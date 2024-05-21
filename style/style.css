@@ -93,6 +93,10 @@
 .card {
   height: 1520px; /* Set the height of the cards */
 }
+#finalSubmitBtn{
+ position: relative;
+ z-index: 10;
+}
 
 @keyframes blink {
   0% { opacity: 1; }

@@ -120,6 +120,7 @@ finalMsg{
   
   #about {
     padding: 50px 0; /* Reduce padding */
+    margin-top: 21px;
   }
 
   #about h1 {

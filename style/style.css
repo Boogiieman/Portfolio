@@ -93,7 +93,8 @@
 .card {
   height: 1520px; /* Set the height of the cards */
 }
-finalMsg{
+
+#finalMsg{
  position: relative;
  z-index: 9;
 }
@@ -152,5 +153,4 @@ finalMsg{
     margin-right: 61px;
   }
 }
-
 

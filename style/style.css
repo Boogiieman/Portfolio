@@ -195,3 +195,11 @@
   }
   
 }
+
+@media screen and (max-width: 745px) and (max-height: 365px) {
+  #home{
+    margin-top: 115px;
+  }
+}
+
+

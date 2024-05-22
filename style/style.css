@@ -34,6 +34,7 @@
   z-index: 20;
   /*z-index: var(--z-fixed);*/
   background-color: #fff;
+  
   /*box-shadow: 0 1px 4px rgba(3, 8, 13, 0.15);*/
 }
 
@@ -43,7 +44,7 @@
 
 #home{
   background-color: #fff;  
-  height: 100vh;
+ /* height: 100vh;*/
   
 }
 
@@ -119,11 +120,10 @@
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
   
-  #about {
-    padding: 50px 0; /* Reduce padding */
+ /* #about {
+    padding: 50px 0; 
     margin-top: 21px;
-  }
-
+  } */
   #about h1 {
     font-size: 20px; /* Reduce h1 font size */
     margin: 0; /* Add margin reset */
@@ -145,12 +145,53 @@
   }
 }
 @media (min-width: 780px) {
-  #aboutRow{
+  /*#aboutRow{
     margin-top: 250px;
-  }
+  }*/
   #skillsRow{
     margin-left: 61px;
     margin-right: 61px;
   }
 }
 
+@media screen and (max-width: 950px) and (max-height: 450px) {
+  #home{
+      margin: 105px 0px 0px 0px ;
+  }
+  #machineSvgRow{
+      margin: 50px 0px 0px 0px ;
+  }
+}
+
+@media screen and (max-width: 450px) and (max-height: 950px) {
+  #home h1{
+      font-size: 22px;
+  }
+  #home p{
+    font-size: 12px;
+  }
+  #footerHeading{
+    font-size: 20px;
+  }
+  
+  
+}
+
+@media screen and (max-width: 395px) and (max-height: 850px) {
+  #home{
+    margin-top: 30px;
+  }
+  #home h1{
+      font-size: 20px;
+  }
+  #home p{
+    font-size: 11px;
+  }
+  #footerHeading{
+    font-size: 20px;
+  }
+  #footerHeading{
+    font-size: 18px;
+  }
+  
+}

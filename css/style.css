@@ -91,9 +91,7 @@
   opacity: 1;
   transform: translateY(0);
 }
-.card {
-  height: 1520px; /* Set the height of the cards */
-}
+
 
 #finalMsg{
  position: relative;
@@ -109,9 +107,7 @@
   50% { opacity: 0; }
   100% { opacity: 1; }
 }
-.card{
-  margin: 5px;
-}
+
 
 .blink {
   animation: blink 1s infinite;
@@ -133,6 +129,13 @@
     margin: 0; /* Remove excessive margin */
     font-size: 14px; /* Adjust font size */
   }
+
+  .project{
+    background-color: #f0f0f0; /* Light gray background */
+    box-shadow: 0 0 10px #6E07F3, 0 0 20px #6E07F3, 0 0 30px #6E07F3; /* Increase shadow size for more depth */
+    margin: 10px;
+  }
+  
 }
 
 @media (max-width: 500px){
@@ -143,6 +146,12 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .project{
+    background-color: #f0f0f0; /* Light gray background */
+    box-shadow: 0 0 10px #6E07F3, 0 0 20px #6E07F3, 0 0 30px #6E07F3; /* Increase shadow size for more depth */
+    margin: 10px;
+  }
+  
 }
 @media (min-width: 780px) {
   /*#aboutRow{
@@ -152,6 +161,8 @@
     margin-left: 61px;
     margin-right: 61px;
   }
+  
+  
 }
 
 @media screen and (max-width: 950px) and (max-height: 450px) {
@@ -161,6 +172,12 @@
   #machineSvgRow{
       margin: 50px 0px 0px 0px ;
   }
+  .project{
+    background-color: #f0f0f0; /* Light gray background */
+    box-shadow: 0 0 10px #6E07F3, 0 0 20px #6E07F3, 0 0 30px #6E07F3; /* Increase shadow size for more depth */
+    margin: 10px;
+  }
+  
 }
 
 @media screen and (max-width: 450px) and (max-height: 950px) {
@@ -172,6 +189,11 @@
   }
   #footerHeading{
     font-size: 20px;
+  }
+  .project{
+    background-color: #f0f0f0; /* Light gray background */
+    box-shadow: 0 0 10px #6E07F3, 0 0 20px #6E07F3, 0 0 30px #6E07F3; /* Increase shadow size for more depth */
+    margin: 10px;
   }
   
   
@@ -193,6 +215,12 @@
   #footerHeading{
     font-size: 18px;
   }
+  .project{
+    background-color: #f0f0f0; /* Light gray background */
+    box-shadow: 0 0 10px #6E07F3, 0 0 20px #6E07F3, 0 0 30px #6E07F3; /* Increase shadow size for more depth */
+    margin: 10px;
+  }
+  
   
 }
 
@@ -221,6 +249,7 @@ body {
 #skills,#projects,#contact {
   scroll-margin-top: 80px; /* Adjust the offset as needed */
 }
+
 
 .hovered {
   background-color: #f0f0f0; /* Light gray background */

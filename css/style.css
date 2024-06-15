@@ -225,9 +225,8 @@ body {
 .hovered {
   background-color: #f0f0f0; /* Light gray background */
   box-shadow: 0 0 10px #6E07F3, 0 0 20px #6E07F3, 0 0 30px #6E07F3; /* Increase shadow size for more depth */
-  transform: scale(1.05); /* Slightly enlarge the card */
-  transition: all 0.3s ease; /* Smooth transition */
-  position: relative;
+  position: absolute;
+  top: 30px;
   z-index: 10; /* Increase z-index to ensure it's on top of other elements */
 }
 
